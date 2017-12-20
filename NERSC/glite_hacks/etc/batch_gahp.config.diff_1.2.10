@@ -1,0 +1,5 @@
+114a115,118
+> # Needed for correct SLURM submission
+> #blah_job_wrapper='srun --no-kill shifter'
+> blah_job_wrapper='srun shifter'
+> 
