@@ -1,6 +1,7 @@
 #! /bin/bash
 
-echo "#SBATCH --image=docker:benediktriedel/spt_test_shifter:latest"
+echo "#SBATCH --image=docker:opensciencegrid/osgvo-el6:latest"
+echo "#SBATCH --volume=\"/global/project/projectdirs/mp107/cvmfs_transfer:/cvmfs\""
 #echo "#SBATCH --image=custom:cms_cvmfs:latest"
 echo "#SBATCH -t 06:00:00"
 #echo "#SBATCH -C haswell"
