@@ -25,7 +25,7 @@ and edit your default shell user's profile or runcom file (e.g .bashrc, .bash\_p
 
 ```
 # Add extra libraries for bosco
-export LD_LIBRARY_PATH="LD_LIBRARY_PATH:~/bosco/extras"
+export LD_LIBRARY_PATH="~/bosco/extras:$LD_LIBRARY_PATH"
 ```
 
 ## Hacking bosco to work with SHIFTER and specify node types
